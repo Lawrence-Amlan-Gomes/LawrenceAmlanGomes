@@ -1,9 +1,7 @@
 "use client";
 import { useTheme } from "@/app/hooks/useTheme";
-import { FaQuoteLeft, FaArrowLeft } from "react-icons/fa";
+import { FaQuoteLeft } from "react-icons/fa";
 import Image from "next/image";
-import { motion } from "framer-motion";
-import Link from "next/link";
 
 export default function TestimonialCard({
   clientName,
@@ -15,30 +13,32 @@ export default function TestimonialCard({
 
   return (
     <div
-      className={`w-full mx-auto p-8 rounded-2xl hover:cursor-pointer border-[1px] relative ${
+      className={`w-full mx-auto p-8 rounded-2xl hover:cursor-pointer border-[1px] flex flex-col justify-between relative ${
         theme
           ? "bg-[#ffffff] hover:bg-[#fafafa] text-[#aaaaaa] border-blue-800"
           : "bg-[#000000] hover:bg-[#060606] text-[#eeeeee] border-blue-800"
       }`}
     >
-      {/* Quote Icon */}
-      <FaQuoteLeft
-        className={`text-xl mb-4 ${
-          theme ? "text-[#666666]" : "text-[#aaaaaa]"
-        }`}
-      />
+      <div className="flex flex-col flex-grow">
+        {/* Quote Icon */}
+        <FaQuoteLeft
+          className={`text-xl mb-4 ${
+            theme ? "text-[#666666]" : "text-[#aaaaaa]"
+          }`}
+        />
 
-      {/* Quote Text */}
-      <p
-        className={`lg:text-md text-sm leading-relaxed text-justify mb-6 ${
-          theme ? "text-[#666666]" : "text-[#aaaaaa]"
-        }`}
-      >
-        {clientQuote}
-      </p>
+        {/* Quote Text */}
+        <p
+          className={`lg:text-md text-sm leading-relaxed text-justify mb-6 ${
+            theme ? "text-[#666666]" : "text-[#aaaaaa]"
+          }`}
+        >
+          {clientQuote}
+        </p>
+      </div>
 
-      {/* Author Section */}
-      <div className="flex items-center gap-4">
+      {/* Author Section - Pinned to Bottom */}
+      <div className="flex items-center gap-4 mt-auto">
         <div className="relative w-12 h-12 rounded-lg overflow-hidden">
           <Image
             src={clientImg}

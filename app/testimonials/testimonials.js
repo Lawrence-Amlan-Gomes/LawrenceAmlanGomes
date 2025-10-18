@@ -1,19 +1,19 @@
 const testimonials = [
     {
         id: 2,
-        clientName: "Mr. Smith",
-        clientRole: "Freelance Client",
+        clientName: "Mr. Kabir",
+        clientRole: "Local Client, Dhaka",
         clientImg: "/C2pic.png",
         clientQuote:
-          "Lawrence built a custom e-commerce app for my small business, and it’s been a game-changer. His Next.js and MongoDB expertise made the platform fast, intuitive, and perfect for my customers. He was communicative and delivered on time—highly recommend!",
+          "Lawrence developed a comprehensive learning management system for me. His exceptional work ethic, problem-solving skills, and critical thinking truly set him apart. He is one of the most capable and professional developers I have had the pleasure of working with.",
       },
     {
       id: 1,
-      clientName: "Ms. Johnson",
-      clientRole: "Freelance Client",
+      clientName: "Mr. Zaman",
+      clientRole: "Local Client, Dhaka",
       clientImg: "/C1pic.png",
       clientQuote:
-        "I hired Lawrence to develop a cafeteria management app for my personal project, and he absolutely delivered. His work with React js and FireBase created a clean, efficient, and user-friendly system. He kept me in the loop throughout and exceeded my expectations!",
+        "Lawrence did an outstanding job developing my library management system website. He was highly professional, understood my requirements quickly, and delivered a clean, efficient, and user-friendly system ahead of schedule. His technical expertise and attention to detail truly impressed me. I’d highly recommend him for any web development project.",
     }
   ];
   

@@ -1,8 +1,8 @@
 "use client";
-import { useTheme } from "@/app/hooks/useTheme";
 import { useState, useEffect } from "react";
 import { callCreateMessage, callGetAllMessages, callUpdateMessage } from "@/app/actions";
 import EachField from "./EachField";
+import emailjs from "@emailjs/browser";
 
 export default function SendMessage({ theme }) {
   const [formEmail, setFormEmail] = useState("");
@@ -35,7 +35,10 @@ export default function SendMessage({ theme }) {
   // Validate message
   useEffect(() => {
     if (formMessage === "") {
-      setMessageError({ iserror: true, error: "Message is required" });
+      setMessageError({
+        iserror: true,
+        error: "Message is required",
+      });
       setFirstTimeMessage(true);
     } else if (formMessage.length < 10) {
       setMessageError({
@@ -87,6 +90,19 @@ export default function SendMessage({ theme }) {
         await callCreateMessage({ email: formEmail, message: [messageEntry] });
       }
 
+      // Send email via EmailJS with only email and message
+      const templateParams = {
+        email: formEmail, // Maps to {{email}} in your template
+        message: formMessage, // Maps to {{message}} in your template
+      };
+
+      await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        templateParams,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+      );
+
       setSubmitSuccess(true);
       setFormEmail("");
       setFormMessage("");
@@ -95,6 +111,7 @@ export default function SendMessage({ theme }) {
         setSubmitSuccess(false);
       }, 5000);
     } catch (err) {
+      console.error("Error:", err); // For debugging
       setSubmitError("Failed to send message. Please try again.");
       setTimeout(() => {
         setSubmitError("");

@@ -9,7 +9,7 @@ function ToogleTheme() {
       <div
         className={`rounded-lg border-[1px] lg:h-[40px] lg:w-[40px] sm:w-[35px] sm:h-[35px] h-[30px] w-[30px] relative ${
           theme
-            ? "border-[#555555] hover:border-[#000000] hover:bg-[#fafafa]"
+            ? "border-[#555555] hover:border-[#000000] hover:bg-[#cccccc]"
             : "border-[#aaaaaa] hover:border-[#bbbbbb] hover:bg-[#111111]"
         }`}
         style={{ cursor: "pointer" }}
