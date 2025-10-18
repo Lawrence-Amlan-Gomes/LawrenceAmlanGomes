@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Pic from "../public/22.jpg";
 import { useTheme } from "@/app/hooks/useTheme";
 import Link from "next/link";
 
@@ -99,7 +98,7 @@ export default function LandingAbout() {
           }`}
         >
           <Image
-            src={Pic}
+            src="/22.jpg"
             alt="Profile picture"
             fill
             className="object-cover object-top"

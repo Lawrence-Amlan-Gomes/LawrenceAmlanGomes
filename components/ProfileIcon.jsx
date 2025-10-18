@@ -3,8 +3,6 @@ import Link from "next/link";
 import { useAuth } from "@/app/hooks/useAuth";
 import { useTheme } from "@/app/hooks/useTheme";
 import { usePathname } from "next/navigation";
-import profileIconDark from "../public/profileIconDark.png";
-import profileIconLight from "../public/profileIconLight.png";
 import Image from "next/image";
 import colors from "@/app/color/color";
 
@@ -36,7 +34,7 @@ const ProfileIcon = ({ active }) => {
                   {" "}
                   <Image
                     priority
-                    src={theme ? profileIconLight : profileIconDark}
+                    src={theme ? "/profileIconLight.png" : "/profileIconDark.png"}
                     alt={theme ? "Proflie Icon Light" : "Proflie Icon Dark"}
                     fill
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 30vw"
@@ -68,7 +66,7 @@ const ProfileIcon = ({ active }) => {
                 {" "}
                 <Image
                   priority
-                  src={theme ? profileIconLight : profileIconDark}
+                  src={theme ? profileIconLight : "/profileIconDark.png"}
                   alt={theme ? "Proflie Icon Light" : "Proflie Icon Dark"}
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 30vw"
