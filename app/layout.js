@@ -1,6 +1,5 @@
 import { Roboto } from "next/font/google"; // Import Roboto instead of Inter
 import "./globals.css";
-import Navbar from "@/components/SideNavbar";
 import AuthProvider from "./providers/AuthProvider";
 import { SessionProvider } from "next-auth/react";
 import { dbConnect } from "@/services/mongo";
