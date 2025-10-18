@@ -6,7 +6,6 @@ import { SessionProvider } from "next-auth/react";
 import { dbConnect } from "@/services/mongo";
 import ThemeProvider from "./providers/ThemeProvider";
 import TopNavbar from "@/components/TopNavbar";
-import SideNavbar from "@/components/SideNavbar";
 import ResponseProvider from "./providers/ResponseProvider";
 import SideBarHandle from "@/components/SideBarHandle";
 import TopNavBarWarper from "@/components/TopNavBarWarper";
