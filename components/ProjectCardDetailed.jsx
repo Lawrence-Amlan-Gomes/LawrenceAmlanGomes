@@ -60,7 +60,7 @@ export default function ProjectCardDetailed({
               }`}
             >
               <Image
-                src={theme ? "/gitHubLight.png" : "/GitHubDark.png"}
+                src={theme ? "/gitHubLight.png" : "/gitHubDark.png"}
                 alt="GitHub"
                 width={16}
                 height={16}
