@@ -1,7 +1,5 @@
 "use client";
 import { useTheme } from "@/app/hooks/useTheme";
-import sun from "../public/Sun.png";
-import moon from "../public/Moon.png";
 import Image from "next/image";
 
 function ToogleTheme() {
@@ -23,7 +21,7 @@ function ToogleTheme() {
         <div className="h-full w-full relative">
           <Image
             priority
-            src={theme ? moon : sun}
+            src={theme ? "/Moon.png" : "/Sun.png"}
             alt={theme ? "moon" : "sun"}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 30vw"
