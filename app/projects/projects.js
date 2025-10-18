@@ -2210,4 +2210,6 @@ const projects = [
   },
 ];
 
+// New added
 export default projects;
+
