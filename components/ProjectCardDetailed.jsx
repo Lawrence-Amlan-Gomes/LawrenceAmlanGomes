@@ -22,7 +22,7 @@ export default function ProjectCardDetailed({
           : "bg-[#000000] hover:bg-[#0a0a0a] text-[#dddddd] border-blue-800"
       }`}
     >
-      <div className="flex flex-col w-[60%] sm:w-1/2 p-4 sm:p-6">
+      <div className="flex flex-col w-[55%] sm:w-1/2 p-4 sm:p-6">
         <h2 className="text-lg xs:text-xl lg:text-2xl font-semibold mb-3">{title}</h2>
         <div className="flex gap-2 mb-4">
           {techStack.slice(0, 5).map(([name, src]) => (
@@ -36,7 +36,7 @@ export default function ProjectCardDetailed({
             />
           ))}
         </div>
-        <p className="text-xs sm:text-sm lg:text-base mb-4 flex-grow">
+        <p className="text-[10px] sm:text-sm lg:text-base mb-4 flex-grow">
           {shortDescription}
         </p>
         <div className="flex gap-4 text-xs sm:text-sm lg:text-base">
@@ -71,7 +71,7 @@ export default function ProjectCardDetailed({
           )}
         </div>
       </div>
-      <div className="relative w-[40%] sm:w-1/2 h-[200px] xs:h-[250px] sm:h-[300px] p-4 sm:p-6 overflow-hidden">
+      <div className="relative w-[45%] sm:w-1/2 h-[200px] xs:h-[250px] sm:h-[300px] p-4 sm:p-6 overflow-hidden">
         <div
           className={`relative h-full w-full overflow-hidden rounded-lg border-[1px] ${
             theme ? "border-[#dddddd]" : "border-[#222222]"
