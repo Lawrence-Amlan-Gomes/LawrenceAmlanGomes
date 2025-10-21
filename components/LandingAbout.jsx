@@ -23,18 +23,23 @@ export default function LandingAbout() {
             theme ? "text-[#333333]" : "text-[#cccccc]"
           }`}
         >
-          Frontend Engineer | Building High-Performance, User-Friendly Web Apps
+          Full-Stack Developer | Building Scalable, User-Centric Web Solutions
         </h2>
 
         <p
           className={`leading-relaxed mb-6 text-justify text-xs sm:text-base ${
             theme ? "text-[#555555]" : "text-[#aaaaaa]"
-          }`}
+          } block sm:hidden`}
         >
-          I&apos;m a Frontend Engineer passionate about crafting web
-          applications that excel in both speed and design. I utilize the latest
-          technologies and prioritize a user-centric approach to build scalable,
-          responsive, and secure frontend architectures for businesses.
+          I&apos;m a Full-Stack Developer crafting user-centric web apps with React, Next.js, and GraphQL. I build responsive, secure solutions with Tailwind CSS, Framer Motion, Redux, MongoDB, Firebase, and payment gateways.
+        </p>
+
+        <p
+          className={`leading-relaxed mb-6 text-justify text-xs sm:text-base ${
+            theme ? "text-[#555555]" : "text-[#aaaaaa]"
+          } hidden sm:block`}
+        >
+          I&apos;m a Full-Stack Developer passionate about building robust, user-centric web applications. With expertise in React and Next.js, I create dynamic, responsive, and SEO-optimized frontends, styled with Tailwind CSS for sleek, modern designs. I leverage Framer Motion to craft engaging animations that enhance user experiences. On the backend, I build scalable solutions using MongoDB and GraphQL, ensuring efficient data management and API performance. I streamline complex state management with Redux and Redux Toolkit, and deliver real-time features using Firebase. Additionally, I integrate secure payment gateways like Stripe and PayPal to enable seamless transactions, driving business success through innovative, high-performance web solutions.
         </p>
 
         <p
@@ -42,8 +47,7 @@ export default function LandingAbout() {
             theme ? "text-[#444444]" : "text-[#bbbbbb]"
           }`}
         >
-          Looking to elevate your web app&apos;s performance and user
-          experience? I can help you achieve that.
+          Ready to transform your vision into a high-performance web app? Let’s collaborate.
         </p>
 
         <ul
@@ -51,17 +55,14 @@ export default function LandingAbout() {
             theme ? "text-[#666666]" : "text-[#aaaaaa]"
           }`}
         >
-          <li>Transform your vision into stunning web apps with React</li>
-          <li>Boost performance with cutting-edge Next.js solutions</li>
-          <li>Streamline your app’s logic with expert Redux integration</li>
-          <li>Elevate your brand with captivating Framer Motion animations</li>
-          <li>
-            Revolutionize your business with seamless AI integration using
-            cutting-edge tools
-          </li>
-          <li>Deliver real-time experiences using Firebase expertise</li>
-          <li>Power your data with seamless MongoDB management</li>
-          <li>and more...</li>
+          <li>Develop dynamic applications with React and Next.js</li>
+          <li>Optimize performance with server-side rendering</li>
+          <li>Streamline state management with Redux expertise</li>
+          <li>Create engaging animations using Framer Motion</li>
+          <li>Build scalable backends with MongoDB and GraphQL</li>
+          <li>Integrate secure payment gateways for seamless transactions</li>
+          <li>Deliver real-time features with Firebase</li>
+          <li>Craft responsive UIs with Tailwind CSS</li>
         </ul>
 
         <div className="flex gap-4">

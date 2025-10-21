@@ -1,54 +1,7 @@
 "use server";
 
 import { GoogleGenAI } from "@google/genai";
-
-const mySelf = `About Me:
-
-I am Lawrence Amlan Gomes, a Frontend web app developer passionate about creating responsive and user-friendly 
-applications using modern technologies like React, Next.js, and Tailwind CSS. With a focus on clean code and 
-intuitive design, I enjoy building portfolio sites, chat bots, and interactive components that enhance user 
-experience. I hold a Bachelor of Science in Computer Science from BRAC University, Dhaka, completed from 2022 
-to 2025, where I gained a strong foundation in software development, algorithms, and web technologies.
-
-Projects:
-
-I have developed a personal portfolio website featuring sections for blogs, projects, and contact forms. 
-Key projects include a dynamic landing page with social links, a contact form integrated with MongoDB for 
-essage storage, and an AI-powered chat bot for real-time interactions. Other works involve registration 
-forms with validation and hashing for security.
-
-Skills:
-
-Proficient in frontend development with HTML, CSS, JavaScript, React JS, and NextJS, 
-leveraging frameworks like Tailwind CSS and Bootstrap for responsive and modern styling. 
-Experienced in state management with Redux and custom hooks, backend integration with Firebase and MongoDB, 
-form validation and handling, API integration for server actions, and creating responsive designs for seamless 
-mobile and desktop experiences.
-
-Clients:
-
-I have worked with individual clients on freelance projects, including building custom web apps for small 
-businesses and personal portfolios. Notable collaborations include developing interactive UIs for startup 
-prototypes and optimizing existing sites for better performance.
-
-Blogs:
-
-I write about frontend development trends, such as using Next.js for server-side rendering, implementing 
-dark/light theme toggles, and creating reusable components. My blogs are accessible via the "View All Blogs" 
-link on my portfolio, covering topics like React hooks and UI/UX best practices.
-
-Experience:
-
-As a self-taught developer with over 2 years of hands-on experience, I started with basic HTML/CSS and 
-progressed to full-stack projects with MongoDB integration. Currently, I focus on frontend roles, 
-contributing to open-source on GitHub and exploring AI integrations in web apps.
-
-Education:
-
-Bachelor of Science in Computer Science
-BRAC University, Dhaka, Bangladesh
-2022 - 2025
-Focused on software development, algorithms, and web technologies, building a strong foundation for creating scalable and efficient web applications.`;
+import mySelf from "./myself";
 
 export async function response(prompt, inputOuputPair) {
   if (!process.env.GEMINI_API_KEY) {

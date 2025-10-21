@@ -43,12 +43,7 @@ export default function About() {
                 theme ? "text-[#666666]" : "text-[#aaaaaa]"
               }`}
             >
-              {`Greetings 👋 I am Lawrence, a dedicated Junior Frontend Engineer based in Bangladesh, 
-              specializing in React.js, Next.js, and Redux, with extensive experience in integrating 
-              frontend applications with Firebase and MongoDB backends. I am committed to developing 
-              high-performance, scalable web solutions and excel at addressing complex technical challenges. 
-              Passionate about lean product development, I continuously enhance my skills to deliver innovative,
-              impactful projects that drive meaningful results.`}
+              {`Greetings 👋 I am Lawrence, a dedicated Full-Stack Developer based in Bangladesh, specializing in building high-performance, scalable web applications. With expertise in React, Next.js, and Tailwind CSS, I craft responsive, SEO-optimized frontends, enhanced by Framer Motion for engaging animations. I streamline state management with Redux and Redux Toolkit, and develop robust backends using MongoDB and GraphQL for efficient data handling and API performance. My experience with Firebase enables real-time features, while my proficiency in integrating secure payment gateways like Stripe and PayPal ensures seamless transactions. Passionate about solving complex technical challenges, I am committed to delivering innovative, user-centric solutions that drive business impact.`}
             </p>
           </div>
         </div>

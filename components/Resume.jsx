@@ -65,13 +65,12 @@ export default function Resume() {
               theme ? "text-[#666666]" : "text-[#aaaaaa]"
             }`}
           >
-            Explore my professional journey as a Frontend Engineer, showcasing
-            expertise in crafting high-performance, user-centric web
-            applications. With a proven track record in React, Next.js, and
-            modern frontend technologies, I deliver scalable, responsive, and
-            visually stunning solutions tailored to elevate your business.
-            Download or print my resume to discover how I can transform your
-            vision into reality.
+            Explore my journey as a Full-Stack Developer, delivering scalable,
+            user-centric web applications. Proficient in React, Next.js,
+            GraphQL, MongoDB, and Firebase, with expertise in Tailwind CSS,
+            Framer Motion, Redux, and payment gateways, I craft responsive,
+            high-performance solutions. Download my resume to see how I can
+            bring your vision to life.
           </p>
         </div>
         <div className="mb-12 relative">

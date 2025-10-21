@@ -87,7 +87,17 @@ export default function Comments() {
             </button>
           </div>
         </>
-      ) : null}
+      ) : (
+        <div className="w-[90%] sm:w-[80%] md:w-[60%] mx-auto px-[5%] sm:px-0">
+          <h2
+            className={`text-2xl sm:text-3xl lg:text-4xl font-bold mb-8 text-center ${
+              theme ? "text-[#333333]" : "text-[#dddddd]"
+            }`}
+          >
+            Only An Admin Can See Client Testimonials
+          </h2>
+        </div>
+      )}
     </div>
   );
 }
