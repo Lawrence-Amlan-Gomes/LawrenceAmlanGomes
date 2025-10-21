@@ -5,23 +5,23 @@ const experiences = [
     companyName: "Local Clients, Dhaka",
     img: "/Company2pic.png",
     duration: "Jan 2024 - Present",
-    overview: "Independently designed and delivered tailored web solutions for small businesses in Dhaka, managing all aspects of development from client requirements to deployment.",
+    overview: "Independently designed and delivered tailored web solutions for small-scale client needs in Dhaka, managing all aspects of development from client requirements to deployment.",
     technologies: ["Next.js", "Tailwind CSS", "Firebase", "MongoDB", "Git"],
     paragraphs: [
       [
         "Challenge",
-        "Small businesses in Dhaka required modern, cost-effective web applications to enhance their online presence and streamline customer interactions, often with diverse needs and limited budgets.",
+        "Clients in Dhaka required simple, cost-effective web applications for their personal or small-scale work, often with specific needs and limited budgets.",
       ],
       [
         "Action",
-        "Developed full-stack web applications using Next.js for optimized server-side rendering, Tailwind CSS for responsive and modern UI, and MongoDB with Firebase for scalable data management. Conducted client consultations to align solutions with business objectives and ensured code quality through Git-based version control.",
+        "Developed full-stack web applications using Next.js for optimized server-side rendering, Tailwind CSS for responsive and modern UI, and MongoDB with Firebase for scalable data management. Conducted client consultations to align solutions with their objectives and ensured code quality through Git-based version control.",
       ],
       [
         "Result",
-        "Successfully delivered over 5 web applications for clients in retail, education, and service sectors, boosting online visibility, reducing operational costs by up to 20%, and achieving an average 40% increase in customer engagement.",
+        "Successfully delivered 3 web applications for 3 clients in various small-scale sectors, enhancing their online presence and supporting their individual operational needs.",
       ],
     ],
-  },
+  },,
   {
     id: 1,
     title: "Frontend Developer",
