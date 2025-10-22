@@ -10,11 +10,11 @@ const projects = [
     longDescription:
       "Blog Platform is a full-stack Next.js application developed in October 2025 to showcase modern web development skills for a social blogging platform, crafted for Malaysia’s tech enthusiasts. It supports user authentication, post creation, commenting, upvoting/downvoting, and searching, all backed by MongoDB for secure, real-time data management. The platform features a light/dark theme toggle, a responsive UI, and dynamic updates via Next.js Server Actions. With clean Tailwind CSS styling and a welcoming message—'Connect, create, and share your ideas with the world! Build engaging blog posts, spark conversations with comments, and vote on content that inspires you—all in a sleek, modern platform designed for creators'—it’s a powerful portfolio piece for Malaysia’s tech industry, demonstrating expertise in full-stack development, CRUD operations, and professional UX design.",
     techStack: [
-      ["Next.js", "/Nextjs.png"],
+      ["Next.js", "/NextJs.png"],
       ["React", "/React.png"],
       ["Tailwind CSS", "/TailwindCss.png"],
-      ["JavaScript", "/Js.png"],
-      ["MongoDB", "/MongoDB.png"],
+      ["JavaScript", "/js.png"],
+      ["MongoDB", "/Mongodb.png"],
     ],
     gitLink: "https://github.com/Lawrence-Amlan-Gomes/BlogPlatform",
     feaTures: [
