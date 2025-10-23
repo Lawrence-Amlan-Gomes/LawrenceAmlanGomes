@@ -483,9 +483,9 @@ const projects = [
     img: ["/P15pic.png"],
     liveLink: "https://bracu-faculty-review.vercel.app/",
     shortDescription:
-      "A frontend Next.js application built in May 2025 for faculty reviews, enabling students to comment, rate, and view faculty details with admin management features.",
+      "A full-stact Next.js application built in May 2025 for faculty reviews, enabling students to comment, rate, and view faculty details with admin management features.",
     longDescription:
-      "Faculty Review is a frontend Next.js application developed in July 2025 to facilitate student reviews and ratings of university faculty. The landing page displays faculty cards with search functionality, accessible only after login. Students can comment, view others' comments, and rate faculty, while admins can manage faculty data. Built with Next.js, React, Tailwind CSS, and JavaScript, the platform ensures a responsive and intuitive experience, showcasing skills in authentication, dynamic rendering, and role-based functionality.",
+      "Faculty Review is a full-stact Next.js application developed in July 2025 to facilitate student reviews and ratings of university faculty. The landing page displays faculty cards with search functionality, accessible only after login. Students can comment, view others' comments, and rate faculty, while admins can manage faculty data. Built with Next.js, React, Tailwind CSS, and JavaScript, the platform ensures a responsive and intuitive experience, showcasing skills in authentication, dynamic rendering, and role-based functionality.",
     techStack: [
       ["Next.js", "/NextJs.png"],
       ["React", "/React.png"],
@@ -729,9 +729,9 @@ const projects = [
     img: ["/P19pic.png"],
     liveLink: "https://library-management-system-alpha-nine.vercel.app/",
     shortDescription:
-      "A frontend Next.js library management system built in March 2025, featuring user and admin functionalities for book borrowing, profile management, and fine tracking with MongoDB integration.",
+      "A full-stack Next.js library management system built in March 2025, featuring user and admin functionalities for book borrowing, profile management, and fine tracking with MongoDB integration.",
     longDescription:
-      "Library Management is a frontend Next.js application developed in March 2025 for a client to manage a library system. It supports user authentication, book browsing, borrowing with a limit of 3 books, and fine calculation for overdue returns, all powered by MongoDB for robust data management. Users can search books, view borrowing history, and manage profiles, while admins can add, edit, or delete books and view user details. Built with Next.js, React, Tailwind CSS, JavaScript, and MongoDB, the site ensures a responsive and intuitive experience, showcasing skills in database integration, dynamic routing, and modern UI design.",
+      "Library Management is a full-stack Next.js application developed in March 2025 for a client to manage a library system. It supports user authentication, book browsing, borrowing with a limit of 3 books, and fine calculation for overdue returns, all powered by MongoDB for robust data management. Users can search books, view borrowing history, and manage profiles, while admins can add, edit, or delete books and view user details. Built with Next.js, React, Tailwind CSS, JavaScript, and MongoDB, the site ensures a responsive and intuitive experience, showcasing skills in database integration, dynamic routing, and modern UI design.",
     techStack: [
       ["Next.js", "/NextJs.png"],
       ["React", "/React.png"],
@@ -909,9 +909,9 @@ const projects = [
     img: ["/P7pic.png"],
     liveLink: "https://cafeteria-opal-psi.vercel.app/",
     shortDescription:
-      "A frontend React.js e-commerce platform built in February 2025 for a cafeteria, featuring user/admin dashboards, food ordering, and Firebase integration.",
+      "A full-stack React.js e-commerce platform built in February 2025 for a cafeteria, featuring user/admin dashboards, food ordering, and Firebase integration.",
     longDescription:
-      "Cafeteria is a frontend React.js application developed in February 2025 for an online food ordering platform. It supports user authentication via Firebase, with distinct interfaces for admins and users. Admins can manage food items, employees, members, vendors, raw materials, works, and payments, while users can browse food items, add to cart, and view profiles. Styled with Tailwind CSS and integrated with Firebase for real-time database operations, the site ensures a responsive, intuitive experience, showcasing skills in authentication, role-based routing, and dynamic UI.",
+      "Cafeteria is a full-stack React.js application developed in February 2025 for an online food ordering platform. It supports user authentication via Firebase, with distinct interfaces for admins and users. Admins can manage food items, employees, members, vendors, raw materials, works, and payments, while users can browse food items, add to cart, and view profiles. Styled with Tailwind CSS and integrated with Firebase for real-time database operations, the site ensures a responsive, intuitive experience, showcasing skills in authentication, role-based routing, and dynamic UI.",
     techStack: [
       ["React", "/React.png"],
       ["Tailwind CSS", "/TailwindCss.png"],
@@ -1589,9 +1589,9 @@ const projects = [
     img: ["/P6pic.png"],
     liveLink: "https://guest-book-gamma.vercel.app/",
     shortDescription:
-      "A frontend React.js application built in September 2024 for an interactive guest book platform, featuring user authentication, profile customization, and responsive design.",
+      "A full-stack React.js application built in September 2024 for an interactive guest book platform, featuring user authentication, profile customization, and responsive design.",
     longDescription:
-      "Guest Book is a frontend React.js application developed in September 2024 to create an interactive platform where users can log in, customize their profiles, and manage personal details. The app features authentication routes (/login and /register), a home page with a profile display, and options to upload a photo, edit a bio, and log out. Styled with Tailwind CSS, it offers a clean, responsive interface, showcasing skills in user authentication, state management, and dynamic UI components.",
+      "Guest Book is a full-stack React.js application developed in September 2024 to create an interactive platform where users can log in, customize their profiles, and manage personal details. The app features authentication routes (/login and /register), a home page with a profile display, and options to upload a photo, edit a bio, and log out. Styled with Tailwind CSS, it offers a clean, responsive interface, showcasing skills in user authentication, state management, and dynamic UI components.",
     techStack: [
       ["React", "/React.png"],
       ["Tailwind CSS", "/TailwindCss.png"],
