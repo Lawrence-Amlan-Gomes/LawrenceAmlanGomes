@@ -25,13 +25,15 @@ export default function LandingAbout() {
         >
           Full-Stack Developer | Building Scalable, User-Centric Web Solutions
         </h2>
-
         <p
           className={`leading-relaxed mb-6 text-justify text-xs sm:text-base ${
             theme ? "text-[#555555]" : "text-[#aaaaaa]"
           } block sm:hidden`}
         >
-          I&apos;m a Full-Stack Developer crafting user-centric web apps with React, Next.js, and GraphQL. I build responsive, secure solutions with Tailwind CSS, Framer Motion, Redux, MongoDB, Firebase, and payment gateways.
+          I&apos;m a Full-Stack Developer building intelligent, user-centric web
+          apps with React, Next.js, and AI APIs. I deliver responsive, secure,
+          and high-performance solutions using Tailwind CSS, Framer Motion,
+          Redux, MongoDB, and GraphQL.
         </p>
 
         <p
@@ -39,7 +41,18 @@ export default function LandingAbout() {
             theme ? "text-[#555555]" : "text-[#aaaaaa]"
           } hidden sm:block`}
         >
-          I&apos;m a Full-Stack Developer passionate about building robust, user-centric web applications. With expertise in React and Next.js, I create dynamic, responsive, and SEO-optimized frontends, styled with Tailwind CSS for sleek, modern designs. I leverage Framer Motion to craft engaging animations that enhance user experiences. On the backend, I build scalable solutions using MongoDB and GraphQL, ensuring efficient data management and API performance. I streamline complex state management with Redux and Redux Toolkit, and deliver real-time features using Firebase. Additionally, I integrate secure payment gateways like Stripe and PayPal to enable seamless transactions, driving business success through innovative, high-performance web solutions.
+          I&apos;m a Full-Stack Developer passionate about engineering
+          intelligent, high-performance web applications. With deep expertise in
+          React and Next.js, I build dynamic, responsive, and SEO-optimized
+          frontends styled with Tailwind CSS and animated with Framer Motion for
+          immersive user experiences. On the backend, I design scalable systems
+          using MongoDB and GraphQL for efficient data flow and API performance.
+          I streamline complex state with Redux Toolkit and integrate real-time
+          functionality via Firebase. I also implement AI API integrations
+          (OpenAI, Hugging Face, etc.) to power smart features like chatbots,
+          predictive analytics, content generation, and automation. From secure
+          payment gateways to data-driven UX, I deliver innovative, future-ready
+          solutions that drive impact.
         </p>
 
         <p
@@ -47,7 +60,8 @@ export default function LandingAbout() {
             theme ? "text-[#444444]" : "text-[#bbbbbb]"
           }`}
         >
-          Ready to transform your vision into a high-performance web app? Let’s collaborate.
+          Ready to build your next intelligent, high-performance web app? Let’s
+          collaborate.
         </p>
 
         <ul
@@ -55,14 +69,16 @@ export default function LandingAbout() {
             theme ? "text-[#666666]" : "text-[#aaaaaa]"
           }`}
         >
-          <li>Develop dynamic applications with React and Next.js</li>
-          <li>Optimize performance with server-side rendering</li>
-          <li>Streamline state management with Redux expertise</li>
-          <li>Create engaging animations using Framer Motion</li>
+          <li>
+            Develop dynamic, type-safe apps with React, Next.js & TypeScript
+          </li>
+          <li>Boost performance with SSR, lazy loading & code splitting</li>
+          <li>Manage complex state efficiently using Redux Toolkit</li>
+          <li>Create fluid, engaging animations with Framer Motion</li>
           <li>Build scalable backends with MongoDB and GraphQL</li>
-          <li>Integrate secure payment gateways for seamless transactions</li>
-          <li>Deliver real-time features with Firebase</li>
-          <li>Craft responsive UIs with Tailwind CSS</li>
+          <li>Integrate AI APIs for chatbots, predictions & automation</li>
+          <li>Enable real-time features with Firebase</li>
+          <li>Craft responsive, accessible UIs with Tailwind CSS</li>
         </ul>
 
         <div className="flex gap-4">
