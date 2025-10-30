@@ -59,16 +59,40 @@ const projects = [
         description: [
           {
             text: [
-              "The /products route displays all available products in a grid layout, identical in design to the landing page but accessible via the navbar.",
+              "The /products route displays all available products in a grid layout, accessible via the navbar.",
               "Logged-in users can click 'Add to Cart' on any product, instantly updating the cart count in the navbar.",
+              "Advanced search and filtering options allow users to search products by name or description, filter by price range, and sort by A-Z, Z-A, price low to high, or high to low.",
+              "Clicking a product image navigates to the dedicated product detail page at /product/[id].",
             ],
             listItems: [
-              "Full product catalog with filtering potential",
+              "Full product catalog with real-time search by name/description",
+              "Interactive filtering by price range",
+              "Sorting options: A-Z, Z-A, price low to high, high to low",
               "Interactive 'Add to Cart' for authenticated users",
+              "Click-to-view product detail page via image",
               "Real-time cart badge update in navbar",
               "Responsive grid layout for all devices",
             ],
             images: ["/P21_4.png"],
+          },
+        ],
+      },
+      {
+        title: "Product Detail Page (/product/[id])",
+        description: [
+          {
+            text: [
+              "Accessible by clicking any product image from the landing page or /products route, this dynamic route shows full product details including high-resolution image, title, description, price, discount, category, SKU, and inventory status.",
+              "Users can add the product to cart directly from this page with quantity controls.",
+            ],
+            listItems: [
+              "Dynamic routing with Next.js [id] parameter",
+              "Detailed product view with all attributes",
+              "High-quality image display",
+              "Add to cart with quantity selection",
+              "Responsive single-product layout",
+            ],
+            images: ["/P21_4_1.png"],
           },
         ],
       },
@@ -87,6 +111,26 @@ const projects = [
               "MongoDB-backed cart persistence",
             ],
             images: ["/P21_5.png"],
+          },
+        ],
+      },
+      {
+        title: "Billing Page (/billing)",
+        description: [
+          {
+            text: [
+              "The /billing route provides a complete order summary including all cart items, quantities, individual prices, and the total amount.",
+              "Users fill out a debit card payment form to complete the purchase. Upon clicking 'Make Payment', a green success message appears along with a detailed payment payslip confirming the transaction.",
+            ],
+            listItems: [
+              "Order summary with itemized breakdown",
+              "Total amount calculation",
+              "Secure debit card payment form",
+              "Instant success feedback with payslip",
+              "MongoDB-backed transaction simulation",
+              "Responsive billing interface",
+            ],
+            images: ["/P21_8.png", "/P21_9.png"],
           },
         ],
       },
@@ -132,14 +176,17 @@ const projects = [
           {
             text: [
               "Built with Next.js for server-side rendering, dynamic routing, and optimal performance across all pages.",
-              "Integrates MongoDB for real-time product, user, and cart data management, with Tailwind CSS ensuring a modern, responsive design.",
+              "Integrates MongoDB for real-time product, user, cart, and order data management, with Tailwind CSS ensuring a modern, responsive design.",
+              "Features dynamic product detail pages, advanced search/filter/sort on product listing, and a complete billing & payment flow with success confirmation.",
             ],
             listItems: [
-              "Next.js dynamic routing for public and protected pages",
+              "Next.js dynamic routing for public, protected, and [id]-based pages",
               "MongoDB for secure and scalable data storage",
-              "React hooks for state and cart management",
+              "React hooks for state, cart, and form management",
               "Tailwind CSS for consistent, mobile-first styling",
               "Role-based access control for user and admin features",
+              "Advanced search, filter, sort, and product detail system",
+              "Full checkout flow with payment simulation and payslip",
             ],
             images: [],
           },
