@@ -87,10 +87,10 @@ export default function Resume() {
               className="w-full h-auto rounded-lg"
             />
           </div>
-          <div className="fixed right-[8%] sm:right-[11%] top-[11%] md:top-[33%] transform -translate-y-1/2 flex flex-row gap-3 sm:flex-col sm:gap-4 z-50">
+          <div className="fixed right-[5%] md:right-[11%] top-[80px] sm:top-[110px] md:top-[150px] transform -translate-y-1/2 flex flex-row gap-3 md:flex-col sm:gap-4 z-50">
             <Link
               href="/home"
-              className={`p-2 sm:p-3 rounded-full text-lg sm:text-xl sm:hidden block ${
+              className={`p-2 sm:p-3 rounded-lg text-md sm:text-xl md:hidden block ${
                 theme
                   ? "bg-[#ffffff] text-[#0a0a0a] border-[1px] border-blue-800 hover:bg-blue-800 hover:text-[#ffffff]"
                   : "bg-[#1a1a1a] text-[#ebebeb] border-[1px] border-blue-700 hover:bg-blue-700 hover:text-[#ffffff]"
@@ -101,7 +101,7 @@ export default function Resume() {
             </Link>
             <button
               onClick={handleDownload}
-              className={`p-2 sm:p-3 rounded-full text-lg sm:text-xl ${
+              className={`p-2 sm:p-3 rounded-lg text-md sm:text-xl ${
                 theme
                   ? "bg-[#ffffff] text-[#0a0a0a] border-[1px] border-blue-800 hover:bg-blue-800 hover:text-[#ffffff]"
                   : "bg-[#1a1a1a] text-[#ebebeb] border-[1px] border-blue-700 hover:bg-blue-700 hover:text-[#ffffff]"
@@ -112,7 +112,7 @@ export default function Resume() {
             </button>
             <button
               onClick={handlePrint}
-              className={`p-2 sm:p-3 rounded-full text-lg sm:text-xl ${
+              className={`p-2 sm:p-3 rounded-lg text-md sm:text-xl ${
                 theme
                   ? "bg-[#ffffff] text-[#0a0a0a] border-[1px] border-blue-800 hover:bg-blue-800 hover:text-[#ffffff]"
                   : "bg-[#1a1a1a] text-[#ebebeb] border-[1px] border-blue-700 hover:bg-blue-700 hover:text-[#ffffff]"
@@ -122,10 +122,10 @@ export default function Resume() {
               <MdLocalPrintshop />
             </button>
           </div>
-          <div className="fixed hidden left-[26%] sm:left-[4%] top-[11%] sm:top-[20%] transform -translate-y-1/2 sm:flex flex-col gap-3 sm:gap-4 z-50">
+          <div className="md:fixed hidden left-[26%] sm:left-[4%] top-[80px] sm:top-[125px] transform -translate-y-1/2 md:flex flex-col gap-3 sm:gap-4 z-50">
             <Link
               href="/home"
-              className={`p-2 sm:p-3 rounded-full text-lg sm:text-xl ${
+              className={`p-2 sm:p-3 rounded-lg text-md sm:text-xl ${
                 theme
                   ? "bg-[#ffffff] text-[#0a0a0a] border-[1px] border-blue-800 hover:bg-blue-800 hover:text-[#ffffff]"
                   : "bg-[#1a1a1a] text-[#ebebeb] border-[1px] border-blue-700 hover:bg-blue-700 hover:text-[#ffffff]"
