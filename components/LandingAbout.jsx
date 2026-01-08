@@ -103,6 +103,17 @@ export default function LandingAbout() {
           >
             Resume
           </Link>
+          <Link href="/thesis">
+            <div
+              className={`px-5 py-2 rounded-lg text-sm sm:text-[15px] font-semibold transition hover:cursor-pointer ${
+                theme
+                  ? "bg-[#0a0a0a] text-[#ffffff] border-[1px] hover:bg-transparent hover:text-black border-[#0a0a0a]"
+                  : "bg-[#ebebeb] text-[#0a0a0a] border-[1px] hover:bg-transparent hover:text-white border-[#ebebeb]"
+              }`}
+            >
+              Thesis
+            </div>
+          </Link>
         </div>
       </div>
 
