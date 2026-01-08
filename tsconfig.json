@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "target": "esnext",
     "lib": [
       "dom",
       "dom.iterable",
@@ -10,12 +11,16 @@
     "strict": false,
     "noEmit": true,
     "incremental": true,
-    "module": "esnext",
     "esModuleInterop": true,
-    "moduleResolution": "node",
+    "module": "esnext",
+    "moduleResolution": "bundler",        // ← Important for Next.js 13+ App Router
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "baseUrl": ".",                       // ← Required for path aliases
+    "paths": {
+      "@/*": ["./*"]                      // ← This enables @/ imports
+    },
     "plugins": [
       {
         "name": "next"
