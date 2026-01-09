@@ -1,5 +1,125 @@
 const projects = [
   {
+    id: 22,
+    title: "Daily Routine",
+    urlTitle: "daily-routine",
+    img: ["/P22.png"],
+    liveLink: "https://daily-routine-self.vercel.app/",
+    shortDescription:
+      "A full-stack Next.js weekly routine planner built in December 2025 with advanced time scheduling, conflict detection, multi-day editing, zoomable timeline visualization and MongoDB integration.",
+    longDescription:
+      "Daily Routine is a modern full-stack Next.js application developed in December 2025 to help users efficiently plan and visualize their weekly schedule. It features a beautiful interactive timeline view with zoom controls, real-time 'Now' indicator, task conflict prevention, multi-day task editing, and powerful single/multi-day task management. Built with Next.js, TypeScript, React, Tailwind CSS, and MongoDB — offers a polished, responsive experience focused on time management precision and user convenience.",
+    techStack: [
+      ["Next.js", "/NextJs.png"],
+      ["React", "/React.png"],
+      ["Tailwind CSS", "/TailwindCss.png"],
+      ["TypeScript", "/ts.png"],
+      ["JavaScript", "/js.png"],
+      ["MongoDB", "/Mongodb.png"],
+    ],
+    gitLink: "https://github.com/Lawrence-Amlan-Gomes/Daily-Routine",
+    feaTures: [
+      {
+        title: "Landing Page",
+        description: [
+          {
+            text: [
+              "Modern and clean landing page with quick access to login/registration and project introduction.",
+              "After login, redirects to the main dashboard with weekly routine visualization.",
+            ],
+            listItems: [
+              "Responsive and visually appealing landing design",
+              "Quick navigation to authentication routes",
+              "Theme support (light/dark)",
+              "Protected dashboard access",
+            ],
+            images: ["/P22_1.png"],
+          },
+        ],
+      },
+      {
+        title: "Authentication Routes",
+        description: [
+          {
+            text: [
+              "Standard secure login and registration system consistent with your other projects.",
+              "Users are redirected to dashboard after successful authentication.",
+            ],
+            listItems: [
+              "Secure login form (/login)",
+              "Registration with basic user information (/register)",
+              "MongoDB storage with proper password hashing",
+              "Responsive authentication pages",
+            ],
+            images: ["/P22_2.png", "/P22_3.png"],
+          },
+        ],
+      },
+      {
+        title: "Dashboard & Weekly Timeline View",
+        description: [
+          {
+            text: [
+              "Beautiful interactive weekly timeline with zoom levels (1×–8×), current time indicator, rotatable week view, and clickable time blocks.",
+              "Shows free time gaps and formatted duration of each task/activity.",
+              "Clicking on tasks opens sidebar editor with pre-filled values.",
+            ],
+            listItems: [
+              "Zoomable timeline (5/10/15/30 min granularity)",
+              "Real-time 'Now' line & label with auto-update",
+              "Week rotation controls",
+              "Visual distinction between free time and scheduled tasks",
+              "Responsive grid layout",
+            ],
+            images: ["/P22_4.png"],
+          },
+        ],
+      },
+      {
+        title: "Advanced Routine Editor",
+        description: [
+          {
+            text: [
+              "Powerful task editor with single-day & multi-day support.",
+              "Very strict validation: time overlaps, min/max duration, duplicate names, overnight limitation.",
+              "Ability to update/delete task across multiple or all days at once.",
+            ],
+            listItems: [
+              "Add/edit tasks for single or multiple days",
+              "Sophisticated overlap & conflict detection",
+              "Minimum 5 min and maximum ~24h duration validation",
+              "Duplicate name prevention per day",
+              "Quick task search/filter on current day",
+              "Save changes to MongoDB with feedback",
+            ],
+            images: ["/P22_4.png"], // you can add more detailed screenshots later if you want
+          },
+        ],
+      },
+      {
+        title: "Technical Implementation",
+        description: [
+          {
+            text: [
+              "Built with Next.js App Router + TypeScript for type safety and better developer experience.",
+              "Advanced time manipulation logic with robust validation.",
+              "MongoDB for persistent weekly routine storage.",
+            ],
+            listItems: [
+              "Next.js server actions & dynamic rendering",
+              "TypeScript for better type checking & refactoring safety",
+              "Complex time logic with overnight handling",
+              "React hooks & context for global theme/auth state",
+              "Tailwind CSS + custom scrollbar styling",
+              "Real-time UI feedback & optimistic updates feel",
+            ],
+            images: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
     id: 21,
     title: "Mobile Commerce",
     urlTitle: "mobile-commerce",
